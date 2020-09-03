@@ -51,15 +51,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStop(){
-        super.onStop();
         Log.d(TAG, "onStop");
+        super.onStop();
     }
 
 
     @Override
     protected void onPause(){
-        super.onPause();
         Log.d(TAG, "onPause");
+        super.onPause();
     }
 
     @Override
@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        super.onDestroy();
         Log.d(TAG, "onDestroy");
+        super.onDestroy();
     }
 
 
@@ -164,7 +164,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
-//                onPermissionAreSet();
             }
         });
 
@@ -189,8 +188,7 @@ public class MainActivity extends AppCompatActivity {
         //Returning from Device settings
         if (requestCode == REQUEST_SETTINGS) {
 
-            Log.d(TAG, "onActivityResult: ");
-//            onPermissionAreSet();
+            Log.d(TAG, "onActivityResult");
         }
     }
 
