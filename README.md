@@ -1,4 +1,7 @@
 # DexterIssue
+
+Issue closed: https://github.com/Karumi/Dexter/issues/265#issuecomment-687014600
+
 Reproducing an issue with Dexter library for Android permissions
 
 - Open the app and grant some of the requested permissions and deny others
